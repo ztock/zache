@@ -62,11 +62,13 @@ func main() {
 		foo := x.(string)
 		// ...
 	}
+
 	// or
 	var foo string
 	if x, found := c.Get("foo"); found {
 		foo = x.(string)
 	}
+
 	// ...
 	// foo can then be passed around freely as a string
 
