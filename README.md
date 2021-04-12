@@ -7,7 +7,6 @@
 An in-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications. A fork from [patrickmn/go-cache](https://github.com/patrickmn/go-cache) project.
 
 Any object can be stored, for a given duration or forever, and the cache can be safely used by multiple goroutines.
-
 Although go-cache isn't meant to be used as a persistent datastore, the entire
 cache can be saved to and loaded from a file to recover from downtime quickly.
 
