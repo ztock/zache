@@ -1,8 +1,8 @@
-# zcache
+# zache
 
-[![GitHub release](https://img.shields.io/github/release/ztock/zcache.svg)](https://github.com/ztock/zcache/releases)
-[![Github Build Status](https://github.com/ztock/zcache/workflows/Go/badge.svg?branch=main)](https://github.com/ztock/zcache/actions?query=workflow%3AGo+branch%3Amain)
-[![GoDoc](https://godoc.org/github.com/ztock/zcache?status.svg)](https://godoc.org/github.com/ztock/zcache)
+[![GitHub release](https://img.shields.io/github/release/ztock/zache.svg)](https://github.com/ztock/zache/releases)
+[![Github Build Status](https://github.com/ztock/zache/workflows/Go/badge.svg?branch=main)](https://github.com/ztock/zache/actions?query=workflow%3AGo+branch%3Amain)
+[![GoDoc](https://godoc.org/github.com/ztock/zache?status.svg)](https://godoc.org/github.com/ztock/zache)
 
 An in-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications. A fork from [patrickmn/go-cache](https://github.com/patrickmn/go-cache) project.
 
@@ -13,7 +13,7 @@ cache can be saved to and loaded from a file to recover from downtime quickly.
 ## Installation
 
 ```shell
-$ go get github.com/ztock/zcache
+$ go get github.com/ztock/zache
 ```
 
 ## Usage
@@ -82,7 +82,7 @@ func main() {
 
 ## Issues
 
-- [Open an issue in GitHub](https://github.com/ztock/zcache/issues)
+- [Open an issue in GitHub](https://github.com/ztock/zache/issues)
 
 ## License
 
